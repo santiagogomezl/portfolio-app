@@ -47,12 +47,10 @@
     padding: 30px;
     display: flex;
     justify-content: center;
-    filter: grayscale(100%);
     transition: all .2s ease-in-out;
 }
 
 .portfolio-item-image a:hover{
-    filter: grayscale(0%);
     transform: scale(1.1);
 }
 
@@ -94,6 +92,7 @@
     .PortfolioItem:nth-child(2n){
         margin-right: 0;
     }
+
 }
 
 @media screen and (min-width: 1024px){
@@ -109,5 +108,15 @@
 
     .PortfolioItem:nth-child(3n){
         margin-right: 0;
+    }
+
+    .portfolio-item-image a{
+        filter: grayscale(100%);
+        transition: all .2s ease-in-out;
+    }
+
+    .portfolio-item-image a:hover{
+        filter: grayscale(0%);
+        transform: scale(1.1);
     }
 }
