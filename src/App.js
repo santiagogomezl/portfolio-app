@@ -16,7 +16,7 @@ class App extends Component{
         {
           id: 1,
           name: 'Tiger King Trivia App',
-          details: `The Tiger King Trivia App is a quiz application with multiple-choice questions designed for true Tiger King fanatics. It was build to showcase responsive and dynamic web design with Javascript and JQuery. Based on the the popular Netflix series. Are you a true Tiger King fan? `,
+          details: `The Tiger King Trivia App is a quiz application with multiple-choice questions designed for true Tiger King fanatics. It was built to showcase responsive and dynamic web design with Javascript and JQuery. Based on the the popular Netflix series Tiger King. `,
           technologiesIds: [ 1, 2, 3],
           logo: 'tkt-logo.png',
           repo:'https://github.com/santiagogomezl/quiz-app',
@@ -25,7 +25,7 @@ class App extends Component{
         {
           id: 1,
           name: 'Simple Product App',
-          details: 'Launch your next product or idea. Gather feedback and results for your future enterprise. The Simple Product App features an admin dashboard to create and update products, upload images and define your store information. The back-end API is build on Express and Postgres',
+          details: 'Launch your next product or idea. Gather feedback and results for your future enterprise. The Simple Product App features an admin dashboard to create and update products, upload images and define your store information. The back-end API is built on Express and Postgres.',
           technologiesIds: [ 2, 4, 5],
           logo: 'spa-logo.png',
           repo:'https://github.com/santiagogomezl/simple-product-app',
@@ -34,7 +34,7 @@ class App extends Component{
         {
           id: 1,
           name: 'IT Manager App',
-          details: 'Manage your IT resources with ease, no more spreadsheets. The IT Manager App is a cloud-based app that allows to to access your resources anywhere whether on your desktop or mobile device. Add and manage users, create tasks and allocate IT resources. ' ,
+          details: 'Manage your IT resources with ease - no more spreadsheets. The IT Manager App is a cloud-based app that allows you to access your resources anywhere, whether on your desktop or mobile device. Add and manage users, create tasks and allocate IT resources. ' ,
           technologiesIds: [ 2, 4, 5],
           logo: 'itm-logo.png',
           repo:'https://github.com/santiagogomezl/it-manager-app',

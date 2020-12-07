@@ -36,13 +36,13 @@ class Home extends Component{
               <p>
                 I'm a Web Developer and Computer Network Engineer who loves
                 working with people and computers. I thrive on being part of
-                a team passionate about creating web content to connect with 
-                people and to extend the frontiers of Web Design. 
+                a team that is passionate about creating web content to connect with 
+                people, and to extend the frontiers of Web Design. 
               </p>
               <p>  
-                When I'm not coding, you can find me running or on the soccer
+                When I'm not coding, you can find me running, or on the soccer
                 field. Always on the lookout for a good read or to learn 
-                something new. I'm currently learning about Microsoft Office365, Microsoft Power Platform and PowerShell.
+                something new. I'm currently learning about Microsoft Office 365, Microsoft Power Platform and PowerShell.
               </p>
             </div>
           </div>
