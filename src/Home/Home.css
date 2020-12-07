@@ -1,0 +1,113 @@
+.Home{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid rgba(128,128,128,0.2);
+    box-shadow: 0 0 5px rgba(128,128,128,0.5);
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1{
+    line-height: 1.4em;
+}
+
+.hero span{
+    padding: 5px 10px;
+    background-color: #DE5B49;
+    color: white;
+}
+
+.hero-social ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-social li{
+    margin-right: 10px;
+}
+
+.hero-social i{
+    font-size: 1.6em;
+}
+
+.hero-social a{
+    color: black
+}
+
+.hero-social a:hover{
+    color:  #DE5B49;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-img{
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    object-fit: cover;
+    display: block;
+    border-radius: 150px;
+    border: 1px solid rgba(128,128,128,0.2);
+    box-shadow: 0 0 5px rgba(128,128,128,0.5);
+}
+
+@media screen and (min-width: 768px){
+    .hero{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero-social{
+        align-self: center;
+    }
+
+    .hero-social ul{
+        flex-direction: column;  
+    }
+
+    .hero-social li{
+        margin-right: 0;
+    }
+
+    .about-content{
+        flex-direction: row;
+    }
+
+    .about-headshot{
+        align-self: center;
+    }
+
+    .about-headshot img{
+        margin:0 20px 0 0;
+    }
+
+    .portfolio-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    
+    .Home{
+        width:80%;
+        min-width: 1200px;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+}

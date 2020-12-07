@@ -1,0 +1,44 @@
+.Footer{
+    width: 100%;
+    min-width: 480px;
+    background-color: #DE5B49;
+    color: white;
+}
+
+.contact{
+    padding: 20px;
+}
+
+.contact a{
+    color: white
+}
+
+.contact a:hover{
+    text-decoration: underline;
+}
+
+.contact ul{
+    padding: 0;
+}
+
+.contact li{
+    margin-bottom: 10px;
+}
+
+.contact ul i{
+    margin-right: 5px;
+}
+
+
+@media screen and (min-width: 1024px){
+    .Footer{
+        min-width: 1200px;
+    }
+    
+    .contact{
+        width: 80%;
+        min-width: 1200px;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}
