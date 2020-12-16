@@ -2,13 +2,19 @@
     width: 100%;
     min-width: 480px;
     padding-top: 50px;
-    background-color: rgba(128,128,128,0.2);
+    background-color: rgba(128,128,128,0.3);
 }
 
 @media screen and (min-width: 1024px){
 
     .App{
+        padding-top: 100px;
         padding-bottom: 50px;
+        min-width: 1200px;
+    }
+
+    body,
+    #root{
         min-width: 1200px;
     }
 

@@ -1,44 +1,78 @@
 .Footer{
     width: 100%;
     min-width: 480px;
-    background-color: #DE5B49;
+    background-color: #BCD7DA;
+    border-top: 1px solid rgba(128,128,128,0.2);
+    box-shadow: 0 2px 5px rgba(128,128,128,0.5);
+    color: black;
+}
+
+.Footer a{
+    color: black
+}
+
+.Footer a:hover{
     color: white;
 }
 
-.contact{
-    padding: 20px;
+
+.footer-content{
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.contact a{
-    color: white
+
+.footer-branding span{
+    font-size: 2em;
+    font-weight: 700;
 }
 
-.contact a:hover{
-    text-decoration: underline;
-}
-
-.contact ul{
+.footer-contact ul{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: row;
     padding: 0;
 }
 
-.contact li{
-    margin-bottom: 10px;
+.footer-contact li{
+    margin-right: 10px;
 }
 
-.contact ul i{
-    margin-right: 5px;
+.footer-contact i{
+    font-size: 1.2em;
 }
 
+
+.pattern-footer{
+    display: none;
+}
 
 @media screen and (min-width: 1024px){
     .Footer{
         min-width: 1200px;
+        position: relative;
     }
     
-    .contact{
+    .footer-content{
         width: 80%;
         min-width: 1200px;
-        max-width: 1600px;
+        max-width: 1400px;
         margin: 0 auto;
     }
+
+    .pattern-footer{
+        display: block;
+        height: 120px;
+        width: 850px;
+        position: absolute;
+        bottom:0;
+        right: 15%;
+        background-image: url('/node-pattern.png');
+        background-size: 900px;
+        background-position: top left;
+        z-index: 0;
+    }
+    
 }

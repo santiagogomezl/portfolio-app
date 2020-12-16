@@ -13,12 +13,12 @@
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
-    background-color: #DE5B49;
-    color: white
+    background-color: #FED6A6;
+    color: black;
 }
 
 .portfolio-item-header a{
-    color: white;
+    color: black;
 }
 
 .portfolio-item-header a:hover,
@@ -38,7 +38,7 @@
 .portfolio-item-image{
     width: 100%;
     height: auto;
-    background-color: rgba(128,128,128,0.2);
+    background-color: rgba(128,128,128,0.1);
 }
 
 .portfolio-item-image a{
@@ -111,7 +111,7 @@
     }
 
     .portfolio-item-image a{
-        filter: grayscale(100%);
+        /* filter: grayscale(100%); */
         transition: all .2s ease-in-out;
     }
 
