@@ -11,9 +11,21 @@
     padding: 20px 0 0 0;
     margin-bottom: 20px;
     background-color: #BCD7DA;
+    position: relative;
 }
 
-.pattern-hero-top,
+.pattern-hero-top{
+    display: block;
+    height: 280px;
+    width: 90%;
+    position: absolute;
+    top:0;
+    background-image: url('/node-pattern.png');
+    background-size: 100%;
+    background-position: bottom right;
+    z-index: 0;
+}
+
 .pattern-hero-bottom{
    display: none;
 }
@@ -350,17 +362,12 @@ section h2{
     }
 
     .pattern-hero-top{
-        display: block;
         height: 280px;
         width: 550px;
-        position: absolute;
-        top:0;
-        background-image: url('/node-pattern.png');
         background-size: 900px;
         background-position: bottom right;
-        z-index: 0;
     }
-    
+
     .pattern-hero-bottom{
         display: block;
         height: 380px;
